@@ -33,7 +33,7 @@ body{
     height: 95%;
     background-repeat: no-repeat;
     background-size: cover;
-    transition: background-image .3s;
+    /* transition: background-image .3s; */
 }
 .top{
     width: 100%;
