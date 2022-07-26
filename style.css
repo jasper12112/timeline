@@ -4,6 +4,10 @@ body{
     margin: 0;
     background-color: #231A19;
 }
+.hidden{
+    width: 0 !important;
+    height: 0 !important;
+}
 .title{
     text-align: center;
     color: white;

@@ -9,36 +9,51 @@ function buttonclick(index)
 
     switch(index){
         case 1:
-            image_holder.style.backgroundImage = "url(images/image1.jpg)";
+            hidden(1);
             title.innerText = "July 2022";
             innerslider.style.width = "5%";
             break;
         case 2:
-            image_holder.style.backgroundImage = "url(images/image2.jpg)";
+            hidden(2);
             title.innerText = "August 2022";
             innerslider.style.width = "20%";
             break;
         case 3:
-            image_holder.style.backgroundImage = "url(images/image3.jpg)";
+            hidden(3);
             title.innerText = "September 2022";
             innerslider.style.width = "40%";
             break;
         case 4:
-            image_holder.style.backgroundImage = "url(images/image4.jpg)";
+            hidden(4);
             title.innerText = "October 2022";
             innerslider.style.width = "60%";
             break;
         case 5:
-            image_holder.style.backgroundImage = "url(images/image5.jpg)";
+            hidden(5);
             title.innerText = "November 2022";
             innerslider.style.width = "80%";
             break;
         case 6:
-            image_holder.style.backgroundImage = "url(images/image6.jpg)";
+            hidden(6);
             title.innerText = "December 2022";
             innerslider.style.width = "100.1%";
             break;
     }
+}
+
+function hidden(index)
+{
+    for(let i = 1; i <= 6; i++)
+    {
+        let img = document.getElementById('image-holder' + i);
+        if(!img.classList.contains('hidden'))
+        {
+            img.classList.add('hidden');
+        }
+    }
+
+    let img = document.getElementById('image-holder' + index);
+    img.classList.remove('hidden');
 }
 
 function add_active(index)
