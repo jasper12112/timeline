@@ -116,6 +116,7 @@ body{
     text-align: center;
     color: #cecece;
     font-weight: 600;
+    font-style: italic;
 }
 .quote-image{
     font-size: 1rem;
@@ -126,6 +127,7 @@ body{
     top: 35%;
     transform: translate(-50%, -50%);
     font-weight: 600;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 1300px) {
