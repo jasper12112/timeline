@@ -103,6 +103,12 @@ body{
 .mind{
     color: aqua;
 }
+.seeing{
+    color: rgb(255, 145, 145);
+}
+.happines{
+    color: rgb(255, 145, 145);
+}
 .quotes-main{
     justify-content: center;
     align-items: center;
