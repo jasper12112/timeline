@@ -124,6 +124,17 @@ body{
     font-weight: 600;
     font-style: italic;
 }
+.quote-title{
+    font-size: .8rem;
+    text-align: center;
+    color: #a2a2a2;
+    position: absolute;
+    left: 50%;
+    top: 28%;
+    transform: translate(-50%, -50%);
+    font-weight: 600;
+    font-style: italic;
+}
 .quote-image{
     font-size: 1rem;
     text-align: center;
@@ -169,6 +180,10 @@ body{
     .quote-image{
         width: 90%;
         font-size: .9rem;
+    }
+    .quote-title{
+        width: 90%;
+        font-size: .8rem;
     }
     .quotes-main{
         max-width: 90vw;
