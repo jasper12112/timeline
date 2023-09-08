@@ -14,7 +14,7 @@ const f_q = "When I'm with you, all my pain would just <span class='gaze'>erase<
 const f_e = "They say that love is <span class='seeing'>blinding</span>...<br>But the moment I met you,<br>I <span class='seeing'>saw</span> that nothing else matters"
 const f_r = "Your <span class='smile'>smile</span> that made adore<br>Your <span class='laugh'>laugh</span> that made me forget and <span class='smile'>smile</span><br>Your <span class='happines'>happines</span> that made me <span class='laugh'>laugh</span><br>Our time together, that gave me <span class='happines'>happines</span>"
 const f_w = "Before I knew you, I thought I knew love.<br>Your eyes, bright as day.<br>Smile as mesmerizing as the ocean.<br>That's when I knew..."
-const f_t = "For when all seemed dark, her eyes shined bright<br>When it seemed like there was no way, you were my light<br>For even death can't stop us, I know we will reunite"
+const f_t = "For when all seemed dark, her eyes shined bright<br>When it seemed like there was no way, you were my light<br>For all I feel, you make it amplified<br>For even death can't stop us, I know we will reunite"
 const f_y = "You are the star that guides me through night,<br>You are the light that brightens my day,<br>You are the path leads my way"
 
 const f_t_old = "Your face never left my <span class='mind'>mind</span>.<br>Conversations that kept flowing in my <span class='mind'>mind</span>.<br>For you, you just never left my <span class='mind'>mind...</span>"
