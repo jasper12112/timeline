@@ -3,6 +3,7 @@ let title = document.getElementById('title');
 let image_holder = document.getElementById('image-holder');
 // background: linear-gradient(.25turn, #FF9B9B 0 20%, #D9D9D9 20% 100%);
 
+const dec_t = "Our story"
 const t_q = "Her gaze"
 const t_e = "Blinding love"
 const t_r = "Its you"
@@ -10,6 +11,7 @@ const t_w = "What is love"
 const t_t = "Eternal way"
 const t_y = "She is everything"
 
+const dec_q = "Our story starts where our eyes would meet,<br><br>A window opened just for our need, a space for memories, boundless care, a place to live, to laugh and share<br><br>A smile so beautifull that between her lips I could read, her kindness, fairness and honesty exceed<br><br>In the evening light your hair softly swayed, a capturing moment forever replayed<br><br>All it took was a meeting of our eyes<br>A quit spark under the infinite skies"
 const f_q = "When I'm with you, all my pain would just <span class='gaze'>erase</span>.<br>Days left me thinking about you, leaving my mind like a <span class='gaze'>maze</span>.<br>Remebered you starring at me, having that lovely <span class='gaze'>gaze</span>.<br>The moment I knew I would walk for you through all the <span class='gaze'>flames</span>.<br>Thats when I knew, I knew my heart had found its <span class='gaze'>place</span>"
 const f_e = "They say that love is <span class='seeing'>blinding</span>...<br>But the moment I met you,<br>I <span class='seeing'>saw</span> that nothing else matters"
 const f_r = "Your <span class='smile'>smile</span> that gets me through my day<br>Your <span class='laugh'>laugh</span> that made me forget and <span class='smile'>smile</span><br>Your <span class='happines'>happines</span> that made me <span class='laugh'>laugh</span><br>Our time together, that gave me <span class='happines'>happines</span>"
@@ -19,8 +21,8 @@ const f_y = "You are the star that guides me through night,<br>You are the light
 
 const f_t_old = "Your face never left my <span class='mind'>mind</span>.<br>Conversations that kept flowing in my <span class='mind'>mind</span>.<br>For you, you just never left my <span class='mind'>mind...</span>"
 
-const quotes_title = [t_q, t_y, t_r, t_w, t_t, t_e];
-const quotes = [f_q, f_y, f_r, f_w, f_t, f_e];
+const quotes_title = [dec_t, t_q, t_y, t_r, t_w, t_t, t_e];
+const quotes = [dec_q, f_q, f_y, f_r, f_w, f_t, f_e];
 
 let current_quote = 0;
 const quote_element = document.getElementById("quote");
@@ -32,32 +34,32 @@ function buttonclick(index)
     switch(index){
         case 1:
             hidden(1);
-            title.innerText = "July 2022";
+            title.innerText = "December 2024";
             innerslider.style.width = "5%";
             break;
         case 2:
             hidden(2);
-            title.innerText = "August 2022";
+            title.innerText = "Februari 2025";
             innerslider.style.width = "20%";
             break;
         case 3:
             hidden(3);
-            title.innerText = "September 2022";
+            title.innerText = "March 2025";
             innerslider.style.width = "40%";
             break;
         case 4:
             hidden(4);
-            title.innerText = "October 2022";
+            title.innerText = "April 2025";
             innerslider.style.width = "60%";
             break;
         case 5:
             hidden(5);
-            title.innerText = "November 2022";
+            title.innerText = "May 2025";
             innerslider.style.width = "80%";
             break;
         case 6:
             hidden(6);
-            title.innerText = "December 2022";
+            title.innerText = "June 2025";
             innerslider.style.width = "100.1%";
             break;
     }
